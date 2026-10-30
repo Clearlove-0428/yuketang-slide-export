@@ -1,0 +1,42 @@
+# Local authentication and browser state
+.local/
+session.json
+session.*.json
+storage_state*.json
+cookies*.json
+.env
+.env.*
+!.env.example
+
+# Exported course materials and download caches
+output/
+.cache/
+tmp/
+manifest.json
+manifest.partial.json
+login_qr.png
+login_status.png
+first_slide.jpg
+*.pdf
+*.ppt
+*.pptx
+*.zip
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+*.log
